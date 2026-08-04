@@ -16,198 +16,41 @@ function shuffle(a){a=a.slice();for(let i=a.length-1;i>0;i--){const j=Math.floor
 const heroPath=a=>`assets/characters/${state.character}_${a}.webp`;
 const bossPath=(n,a)=>`assets/boss/boss${n+1}_${a}.webp`;
 
-/* ---- 圖片預載，避免出招時圖片延遲才出現 ---- */
-const preloaded=new Set();
-function preload(src){if(!src||preloaded.has(src))return;preloaded.add(src);const i=new Image();i.src=src}
-function preloadHero(){["idle","attack","hurt"].forEach(a=>preload(heroPath(a)))}
-function preloadBoss(n){["idle","hurt","dead"].forEach(a=>preload(bossPath(n,a)))}
-
-/* ---- 主角圖：平時隱藏，答對/答錯才短暫出現 ---- */
+/* ---- 短暫閃現動畫：答對→攻擊圖，答錯→受傷圖 ---- */
 let heroTimer=null;
 function flashHero(action){
-  clearTimeout(heroTimer);
-  const el=$("heroImg");
-  el.src=heroPath(action);
-  el.classList.remove("attack","hurt","show");
-  void el.offsetWidth;
-  el.classList.add("show",action);
-  heroTimer=setTimeout(()=>{el.classList.remove("show","attack","hurt")},650);
-}
-function hideHero(){clearTimeout(heroTimer);const el=$("heroImg");el.classList.remove("show","attack","hurt")}
-
-/* ---- Boss 圖：受擊 / 反擊的小動畫 ---- */
-function bossFx(cls){
-  const el=$("bossImg");
-  el.classList.remove("hit","attack");
-  void el.offsetWidth;
-  el.classList.add(cls);
-  setTimeout(()=>el.classList.remove(cls),500);
-}
-
-/* ---- 連擊提示 ---- */
-function updateCombo(){
-  const el=$("comboBadge");
-  if(run.combo>=2){
-    el.textContent=run.combo+" 連擊！";
-    el.classList.remove("hidden");
-    el.style.animation="none";void el.offsetWidth;el.style.animation="";
-  }else{
-    el.classList.add("hidden");
+  /* 先清除上一次的定時器 */
+  if(heroTimer)clearTimeout(heroTimer);
+  const hero=$("heroImg");
+  const boss=$("bossImg");
+  if(action==="attack"){
+    hero.src=heroPath("attack");
+  }else if(action==="hurt"){
+    hero.src=heroPath("hurt");
+    boss.classList.add("shake");
   }
+  hero.classList.add("show");
+  heroTimer=setTimeout(()=>{
+    hero.classList.remove("show");
+    boss.classList.remove("shake");
+    heroTimer=null;
+  },600);
 }
 
-function renderMap(){
-  const p=state.completed.filter(Boolean).length*25;
-  $("mapProgress").textContent=p+"%";
-  $("mapCoins").textContent=state.coins;
-  $("mapShards").textContent=state.shards;
-  const box=$("levelCards");box.innerHTML="";
-  LEVELS.forEach((l,i)=>{
-    const b=document.createElement("button");
-    b.className="levelCard"+(i>state.unlocked?" locked":"")+(state.completed[i]?" complete":"");
-    b.innerHTML=`<img src="assets/background/${l.bg}" alt=""><h3>${l.name}</h3><p>隨機10題｜${state.completed[i]?"已完成":"尚未完成"}</p>`;
-    if(i<=state.unlocked)b.onclick=()=>startLevel(i);
-    box.appendChild(b);
-  });
-}
-
-function startLevel(i){
-  const pool=bank.filter(q=>LEVELS[i].cat.includes(q.category));
-  run={level:i,questions:shuffle(pool).slice(0,10),index:0,correct:0,lives:4,hints:3,combo:0,maxCombo:0,bossHp:100,answered:false};
-  $("battleBg").style.backgroundImage=`url('assets/background/${LEVELS[i].bg}')`;
-  $("levelName").textContent=LEVELS[i].name;
-  $("bossImg").src=bossPath(i,"idle");
-  hideHero();
-  preloadHero();
-  preloadBoss(i);
-  updateHud();
-  updateCombo();
-  renderQuestion();
-  show("battle");
-}
-
-function updateHud(){
-  const pct=Math.round(((run.level*10+run.index)/40)*100);
-  $("repair").textContent=pct+"%";
-  $("coins").textContent=state.coins;
-  $("shards").textContent=state.shards;
-  $("lives").textContent="❤".repeat(run.lives)+"♡".repeat(4-run.lives);
-  $("hintCount").textContent=run.hints;
-  $("bossHp").style.width=run.bossHp+"%";
-  $("bossHpText").textContent=`${run.bossHp}/100`;
-}
-
-function renderQuestion(){
-  if(run.index>=10)return finishLevel();
-  run.answered=false;
-  const q=run.questions[run.index];
-  if(!q){$("qText").textContent="本分類題數不足，請檢查題庫。";return}
-  $("qCategory").textContent=q.category;
-  $("qCount").textContent=`${run.index+1}/10`;
-  $("qText").textContent=q.question;
-  $("feedback").textContent="";
-  $("feedback").className="feedback";
-  $("next").classList.add("hidden");
-  const box=$("options");box.innerHTML="";
-  q.options.forEach((t,i)=>{
-    const b=document.createElement("button");
-    b.className="opt";
-    b.innerHTML=`<b>${String.fromCharCode(65+i)}.</b> ${t}`;
-    b.onclick=()=>answer(i,b);
-    box.appendChild(b);
-  });
-  hideHero();
-  $("bossImg").src=bossPath(run.level,"idle");
-}
-
-function answer(i,btn){
-  if(run.answered)return;
-  run.answered=true;
-  const q=run.questions[run.index],opts=[...document.querySelectorAll(".opt")];
-  opts.forEach(x=>x.disabled=true);
-  opts[q.answerIndex]?.classList.add("correct");
-  if(i===q.answerIndex){
-    run.correct++;run.combo++;run.maxCombo=Math.max(run.maxCombo,run.combo);
-    run.bossHp=Math.max(0,run.bossHp-10);
-    state.coins+=q.reward?.gold||5;state.shards+=2;
-    btn.classList.add("correct");
-    $("feedback").textContent="答對了！"+q.explanation;
-    $("feedback").className="feedback good";
-    flashHero("attack");
-    bossFx("hit");
-    $("bossImg").src=bossPath(run.level,"hurt");
-  }else{
-    run.combo=0;run.lives--;
-    btn.classList.add("wrong");
-    $("feedback").textContent=`答案是「${q.answer}」。${q.explanation}`;
-    $("feedback").className="feedback bad";
-    flashHero("hurt");
-    bossFx("attack");
-  }
-  updateCombo();
-  updateHud();
-  if(run.lives<=0){setTimeout(()=>finishLevel(true),500);return}
-  $("next").textContent=run.index===9?"查看結果":"下一題";
-  $("next").classList.remove("hidden");
-}
-
-function finishLevel(forceFail=false){
-  const pass=!forceFail&&run.correct>=7,l=LEVELS[run.level];
-  $("resultTitle").textContent=pass?"修復成功！":"挑戰失敗…";
-  $("resultArt").src=bossPath(run.level,pass?"dead":"idle");
-  $("rCorrect").textContent=`${run.correct}/10`;
-  $("rRate").textContent=Math.round(run.correct*10)+"%";
-  $("rCombo").textContent=run.maxCombo;
-  $("resultMsg").textContent=pass?"時間線已恢復穩定，獲得本關獎勵！":"至少答對7題才能完成修復。";
-  $("nextLevel").classList.toggle("hidden",!pass||run.level===3);
-  if(pass){
-    state.totalCorrect+=run.correct;
-    if(!state.completed[run.level]){state.coins+=l.reward.coin;state.shards+=l.reward.shard}
-    state.completed[run.level]=true;
-    state.unlocked=Math.max(state.unlocked,Math.min(3,run.level+1));
-    save();
-  }
-  show("result");
-  if(pass&&run.level===3)setTimeout(showVictory,1200);
-}
-
-function showVictory(){
-  save();
-  $("finalCorrect").textContent=`${state.totalCorrect}/40`;
-  $("finalCoins").textContent=state.coins;
-  $("finalShards").textContent=state.shards;
-  show("victory");
-}
-
+function renderMap(){const p=state.completed.filter(Boolean).length*25;$("mapProgress").textContent=p+"%";$("mapCoins").textContent=state.coins;$("mapShards").textContent=state.shards;const box=$("levelCards");box.innerHTML="";LEVELS.forEach((l,i)=>{const b=document.createElement("button");b.className="levelCard"+(i>state.unlocked?" locked":"")+(state.completed[i]?" complete":"");b.innerHTML=`<img src="assets/background/${l.bg}" alt=""><h3>${l.name}</h3><p>隨機10題｜${state.completed[i]?"已完成":"尚未完成"}</p>`;if(i<=state.unlocked)b.onclick=()=>startLevel(i);box.appendChild(b)})}
+function startLevel(i){const pool=bank.filter(q=>LEVELS[i].cat.includes(q.category));run={level:i,questions:shuffle(pool).slice(0,10),index:0,correct:0,lives:4,hints:3,combo:0,maxCombo:0,bossHp:100,answered:false};$("battleBg").style.backgroundImage=`url('assets/background/${LEVELS[i].bg}')`;$("levelName").textContent=LEVELS[i].name;$("bossImg").src=bossPath(i,"idle");$("heroImg").src=heroPath("idle");$("heroImg").classList.remove("show");updateHud();renderQuestion();show("battle")}
+function updateHud(){const pct=Math.round(((run.level*10+run.index)/40)*100);$("repair").textContent=pct+"%";$("coins").textContent=state.coins;$("shards").textContent=state.shards;$("lives").textContent="❤".repeat(run.lives)+"♡".repeat(4-run.lives);$("hintCount").textContent=run.hints;$("bossHp").style.width=run.bossHp+"%";$("bossHpText").textContent=`${run.bossHp}/100`}
+function renderQuestion(){if(run.index>=10)return finishLevel();run.answered=false;const q=run.questions[run.index];if(!q){$("qText").textContent="本分類題數不足，請檢查題庫。";return}$("qCategory").textContent=q.category;$("qCount").textContent=`${run.index+1}/10`;$("qText").textContent=q.question;$("feedback").textContent="";$("feedback").className="feedback";$("next").classList.add("hidden");/* 隱藏主角 */$("heroImg").classList.remove("show");const box=$("options");box.innerHTML="";q.options.forEach((t,i)=>{const b=document.createElement("button");b.className="opt";b.innerHTML=`<b>${String.fromCharCode(65+i)}.</b> ${t}`;b.onclick=()=>answer(i,b);box.appendChild(b)})}
+function answer(i,btn){if(run.answered)return;run.answered=true;const q=run.questions[run.index],opts=[...document.querySelectorAll(".opt")];opts.forEach(x=>x.disabled=true);opts[q.answerIndex]?.classList.add("correct");if(i===q.answerIndex){run.correct++;run.combo++;run.maxCombo=Math.max(run.maxCombo,run.combo);run.bossHp=Math.max(0,run.bossHp-10);state.coins+=q.reward?.gold||5;state.shards+=2;btn.classList.add("correct");$("feedback").textContent="答對了！"+q.explanation;$("feedback").className="feedback good";flashHero("attack")}else{run.combo=0;run.lives--;btn.classList.add("wrong");$("feedback").textContent=`答案是「${q.answer}」。${q.explanation}`;$("feedback").className="feedback bad";flashHero("hurt")}updateHud();if(run.lives<=0){setTimeout(()=>finishLevel(true),500);return}$("next").textContent=run.index===9?"查看結果":"下一題";$("next").classList.remove("hidden")}
+function finishLevel(forceFail=false){const pass=!forceFail&&run.correct>=7,l=LEVELS[run.level];$("resultTitle").textContent=pass?"修復成功！":"挑戰失敗…";$("resultArt").src=bossPath(run.level,pass?"dead":"idle");$("rCorrect").textContent=`${run.correct}/10`;$("rRate").textContent=Math.round(run.correct*10)+"%";$("rCombo").textContent=run.maxCombo;$("resultMsg").textContent=pass?"時間線已恢復穩定，獲得本關獎勵！":"至少答對7題才能完成修復。";$("nextLevel").classList.toggle("hidden",!pass||run.level===3);if(pass){state.totalCorrect+=run.correct;if(!state.completed[run.level]){state.coins+=l.reward.coin;state.shards+=l.reward.shard}state.completed[run.level]=true;state.unlocked=Math.max(state.unlocked,Math.min(3,run.level+1));save()}show("result");if(pass&&run.level===3)setTimeout(showVictory,1200)}
+function showVictory(){save();$("finalCorrect").textContent=`${state.totalCorrect}/40`;$("finalCoins").textContent=state.coins;$("finalShards").textContent=state.shards;show("victory")}
 $("next").onclick=()=>{run.index++;updateHud();renderQuestion()};
-$("hint").onclick=()=>{
-  if(run.hints<=0||run.answered)return;
-  run.hints--;
-  const q=run.questions[run.index];
-  $("feedback").textContent="提示：留意「"+(q.hint||q.tags?.[0]||"課文重點")+"」。";
-  $("feedback").className="feedback good";
-  updateHud();
-};
-$("retry").onclick=()=>startLevel(run.level);
-$("toMap").onclick=()=>{renderMap();show("map")};
-$("nextLevel").onclick=()=>startLevel(run.level+1);
-$("pause").onclick=()=>$("modal").classList.remove("hidden");
-$("modalPrimary").onclick=()=>$("modal").classList.add("hidden");
-$("modalSecondary").onclick=()=>{$("modal").classList.add("hidden");renderMap();show("map")};
-$("newGame").onclick=()=>show("select");
-$("continueGame").onclick=()=>{renderMap();show("map")};
-$("backHome").onclick=()=>show("home");
-$("mapHome").onclick=()=>show("home");
+$("hint").onclick=()=>{if(run.hints<=0||run.answered)return;run.hints--;const q=run.questions[run.index];$("feedback").textContent="提示：留意「"+(q.hint||q.tags?.[0]||"課文重點")+"」。";$("feedback").className="feedback good";updateHud()};
+$("retry").onclick=()=>startLevel(run.level);$("toMap").onclick=()=>{renderMap();show("map")};$("nextLevel").onclick=()=>startLevel(run.level+1);
+$("pause").onclick=()=>$("modal").classList.remove("hidden");$("modalPrimary").onclick=()=>$("modal").classList.add("hidden");$("modalSecondary").onclick=()=>{$("modal").classList.add("hidden");renderMap();show("map")};
+$("newGame").onclick=()=>show("select");$("continueGame").onclick=()=>{renderMap();show("map")};$("backHome").onclick=()=>show("home");$("mapHome").onclick=()=>show("home");
 document.querySelectorAll(".char-card").forEach(b=>b.onclick=()=>{state.character=b.dataset.char;save();renderMap();show("map")});
-$("resetGame").onclick=()=>{
-  if(confirm("確定重置所有進度？")){
-    localStorage.removeItem("timeRepairV2");
-    state={character:"female",unlocked:0,completed:[false,false,false,false],coins:120,shards:35,totalCorrect:0};
-    $("continueGame").classList.add("hidden");
-  }
-};
-$("again").onclick=()=>{state.unlocked=0;state.completed=[false,false,false,false];state.totalCorrect=0;save();startLevel(0)};
-$("victoryMap").onclick=()=>{renderMap();show("map")};
-load();
-if(localStorage.getItem("timeRepairV2"))$("continueGame").classList.remove("hidden");
+$("resetGame").onclick=()=>{if(confirm("確定重置所有進度？")){localStorage.removeItem("timeRepairV2");state={character:"female",unlocked:0,completed:[false,false,false,false],coins:120,shards:35,totalCorrect:0};$("continueGame").classList.add("hidden")}};
+$("again").onclick=()=>{state.unlocked=0;state.completed=[false,false,false,false];state.totalCorrect=0;save();startLevel(0)};$("victoryMap").onclick=()=>{renderMap();show("map")};
+load();if(localStorage.getItem("timeRepairV2"))$("continueGame").classList.remove("hidden");
 })();
