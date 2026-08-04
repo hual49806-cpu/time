@@ -1,0 +1,2843 @@
+{
+  "metadata": {
+    "name": "逆舟家教南一五上國語遊戲題庫",
+    "questionCount": 105
+  },
+  "questions": [
+    {
+      "id": "N5L1-001",
+      "version": "南一",
+      "grade": "五上",
+      "lesson": "第一課",
+      "title": "幸福筆記本",
+      "category": "生字詞",
+      "difficulty": 1,
+      "question": "「淨灘」的意思是？",
+      "options": [
+        "清理海灘垃圾",
+        "在海邊游泳",
+        "觀察海浪",
+        "撿貝殼"
+      ],
+      "answerIndex": 0,
+      "answer": "清理海灘垃圾",
+      "explanation": "清理海灘上的廢棄物。",
+      "hint": "淨灘",
+      "tags": [
+        "淨灘"
+      ],
+      "reward": {
+        "gold": 8,
+        "exp": 8
+      }
+    },
+    {
+      "id": "N5L1-002",
+      "version": "南一",
+      "grade": "五上",
+      "lesson": "第一課",
+      "title": "幸福筆記本",
+      "category": "生字詞",
+      "difficulty": 1,
+      "question": "「某天」中的「某」表示？",
+      "options": [
+        "不特定",
+        "固定",
+        "昨天",
+        "明天"
+      ],
+      "answerIndex": 0,
+      "answer": "不特定",
+      "explanation": "某表示不特定。",
+      "hint": "某",
+      "tags": [
+        "某"
+      ],
+      "reward": {
+        "gold": 11,
+        "exp": 11
+      }
+    },
+    {
+      "id": "N5L1-003",
+      "version": "南一",
+      "grade": "五上",
+      "lesson": "第一課",
+      "title": "幸福筆記本",
+      "category": "生字詞",
+      "difficulty": 2,
+      "question": "「年逾七十」的「逾」是？",
+      "options": [
+        "超過",
+        "不到",
+        "等於",
+        "忘記"
+      ],
+      "answerIndex": 0,
+      "answer": "超過",
+      "explanation": "逾有超過的意思。",
+      "hint": "逾",
+      "tags": [
+        "逾"
+      ],
+      "reward": {
+        "gold": 5,
+        "exp": 5
+      }
+    },
+    {
+      "id": "N5L1-004",
+      "version": "南一",
+      "grade": "五上",
+      "lesson": "第一課",
+      "title": "幸福筆記本",
+      "category": "生字詞",
+      "difficulty": 1,
+      "question": "「一擁而上」表示？",
+      "options": [
+        "許多人一起上前",
+        "一人後退",
+        "慢慢散開",
+        "安靜坐下"
+      ],
+      "answerIndex": 0,
+      "answer": "許多人一起上前",
+      "explanation": "形容許多人同時上前。",
+      "hint": "擁",
+      "tags": [
+        "擁"
+      ],
+      "reward": {
+        "gold": 8,
+        "exp": 8
+      }
+    },
+    {
+      "id": "N5L1-005",
+      "version": "南一",
+      "grade": "五上",
+      "lesson": "第一課",
+      "title": "幸福筆記本",
+      "category": "生字詞",
+      "difficulty": 1,
+      "question": "「興高采烈」形容？",
+      "options": [
+        "十分開心",
+        "非常悲傷",
+        "極度疲憊",
+        "十分害怕"
+      ],
+      "answerIndex": 0,
+      "answer": "十分開心",
+      "explanation": "形容興致高昂、情緒熱烈。",
+      "hint": "興高采烈",
+      "tags": [
+        "興高采烈"
+      ],
+      "reward": {
+        "gold": 11,
+        "exp": 11
+      }
+    },
+    {
+      "id": "N5L1-006",
+      "version": "南一",
+      "grade": "五上",
+      "lesson": "第一課",
+      "title": "幸福筆記本",
+      "category": "生字詞",
+      "difficulty": 2,
+      "question": "「疲憊」的意思是？",
+      "options": [
+        "疲倦勞累",
+        "精神飽滿",
+        "十分高興",
+        "仔細小心"
+      ],
+      "answerIndex": 0,
+      "answer": "疲倦勞累",
+      "explanation": "疲憊就是非常疲累。",
+      "hint": "疲憊",
+      "tags": [
+        "疲憊"
+      ],
+      "reward": {
+        "gold": 5,
+        "exp": 5
+      }
+    },
+    {
+      "id": "N5L1-007",
+      "version": "南一",
+      "grade": "五上",
+      "lesson": "第一課",
+      "title": "幸福筆記本",
+      "category": "生字詞",
+      "difficulty": 1,
+      "question": "「灌注」最接近？",
+      "options": [
+        "注入",
+        "擦去",
+        "拖走",
+        "比較"
+      ],
+      "answerIndex": 0,
+      "answer": "注入",
+      "explanation": "灌注有注入、投入的意思。",
+      "hint": "灌注",
+      "tags": [
+        "灌注"
+      ],
+      "reward": {
+        "gold": 8,
+        "exp": 8
+      }
+    },
+    {
+      "id": "N5L1-008",
+      "version": "南一",
+      "grade": "五上",
+      "lesson": "第一課",
+      "title": "幸福筆記本",
+      "category": "生字詞",
+      "difficulty": 1,
+      "question": "「擦痕」是？",
+      "options": [
+        "摩擦留下的痕跡",
+        "水流的聲音",
+        "比賽的路線",
+        "筆記的內容"
+      ],
+      "answerIndex": 0,
+      "answer": "摩擦留下的痕跡",
+      "explanation": "擦痕是摩擦後留下的痕跡。",
+      "hint": "擦痕",
+      "tags": [
+        "擦痕"
+      ],
+      "reward": {
+        "gold": 11,
+        "exp": 11
+      }
+    },
+    {
+      "id": "N5L1-009",
+      "version": "南一",
+      "grade": "五上",
+      "lesson": "第一課",
+      "title": "幸福筆記本",
+      "category": "生字詞",
+      "difficulty": 2,
+      "question": "「賠償」的意思是？",
+      "options": [
+        "補償損失",
+        "表達感謝",
+        "邀請參加",
+        "互相比較"
+      ],
+      "answerIndex": 0,
+      "answer": "補償損失",
+      "explanation": "賠償是補償他人的損失。",
+      "hint": "賠償",
+      "tags": [
+        "賠償"
+      ],
+      "reward": {
+        "gold": 5,
+        "exp": 5
+      }
+    },
+    {
+      "id": "N5L1-010",
+      "version": "南一",
+      "grade": "五上",
+      "lesson": "第一課",
+      "title": "幸福筆記本",
+      "category": "生字詞",
+      "difficulty": 1,
+      "question": "「焦急」是什麼狀態？",
+      "options": [
+        "非常著急",
+        "十分平靜",
+        "非常開心",
+        "仔細觀察"
+      ],
+      "answerIndex": 0,
+      "answer": "非常著急",
+      "explanation": "焦急指心中非常著急。",
+      "hint": "焦急",
+      "tags": [
+        "焦急"
+      ],
+      "reward": {
+        "gold": 8,
+        "exp": 8
+      }
+    },
+    {
+      "id": "N5L1-011",
+      "version": "南一",
+      "grade": "五上",
+      "lesson": "第一課",
+      "title": "幸福筆記本",
+      "category": "生字詞",
+      "difficulty": 1,
+      "question": "「謹慎」的意思是？",
+      "options": [
+        "仔細小心",
+        "隨便處理",
+        "快速完成",
+        "大膽冒險"
+      ],
+      "answerIndex": 0,
+      "answer": "仔細小心",
+      "explanation": "謹慎是仔細、小心。",
+      "hint": "謹慎",
+      "tags": [
+        "謹慎"
+      ],
+      "reward": {
+        "gold": 11,
+        "exp": 11
+      }
+    },
+    {
+      "id": "N5L1-012",
+      "version": "南一",
+      "grade": "五上",
+      "lesson": "第一課",
+      "title": "幸福筆記本",
+      "category": "生字詞",
+      "difficulty": 2,
+      "question": "「死角」通常指？",
+      "options": [
+        "不易看見的地方",
+        "最明亮的地方",
+        "人最多的地方",
+        "最寬廣的地方"
+      ],
+      "answerIndex": 0,
+      "answer": "不易看見的地方",
+      "explanation": "死角是不容易看見或注意到的地方。",
+      "hint": "死角",
+      "tags": [
+        "死角"
+      ],
+      "reward": {
+        "gold": 5,
+        "exp": 5
+      }
+    },
+    {
+      "id": "N5L1-013",
+      "version": "南一",
+      "grade": "五上",
+      "lesson": "第一課",
+      "title": "幸福筆記本",
+      "category": "生字詞",
+      "difficulty": 1,
+      "question": "「勤奮」表示？",
+      "options": [
+        "努力不懈",
+        "十分疲累",
+        "心中焦急",
+        "不願做事"
+      ],
+      "answerIndex": 0,
+      "answer": "努力不懈",
+      "explanation": "勤奮是努力不懈。",
+      "hint": "勤奮",
+      "tags": [
+        "勤奮"
+      ],
+      "reward": {
+        "gold": 8,
+        "exp": 8
+      }
+    },
+    {
+      "id": "N5L1-014",
+      "version": "南一",
+      "grade": "五上",
+      "lesson": "第一課",
+      "title": "幸福筆記本",
+      "category": "生字詞",
+      "difficulty": 1,
+      "question": "「僅」最接近哪個字？",
+      "options": [
+        "只",
+        "又",
+        "都",
+        "再"
+      ],
+      "answerIndex": 0,
+      "answer": "只",
+      "explanation": "僅有只、才的意思。",
+      "hint": "僅",
+      "tags": [
+        "僅"
+      ],
+      "reward": {
+        "gold": 11,
+        "exp": 11
+      }
+    },
+    {
+      "id": "N5L1-015",
+      "version": "南一",
+      "grade": "五上",
+      "lesson": "第一課",
+      "title": "幸福筆記本",
+      "category": "生字詞",
+      "difficulty": 2,
+      "question": "哪個詞語用字正確？",
+      "options": [
+        "加倍努力",
+        "陪償損失",
+        "賠伴家人",
+        "倍同朋友"
+      ],
+      "answerIndex": 0,
+      "answer": "加倍努力",
+      "explanation": "加倍努力用字正確。",
+      "hint": "倍",
+      "tags": [
+        "倍"
+      ],
+      "reward": {
+        "gold": 5,
+        "exp": 5
+      }
+    },
+    {
+      "id": "N5L1-016",
+      "version": "南一",
+      "grade": "五上",
+      "lesson": "第一課",
+      "title": "幸福筆記本",
+      "category": "生字詞",
+      "difficulty": 1,
+      "question": "「學校」的「校」讀音和哪個相同？",
+      "options": [
+        "校園",
+        "校正",
+        "校準",
+        "校對"
+      ],
+      "answerIndex": 0,
+      "answer": "校園",
+      "explanation": "學校、校園的校都讀ㄒㄧㄠˋ。",
+      "hint": "校",
+      "tags": [
+        "校"
+      ],
+      "reward": {
+        "gold": 8,
+        "exp": 8
+      }
+    },
+    {
+      "id": "N5L1-017",
+      "version": "南一",
+      "grade": "五上",
+      "lesson": "第一課",
+      "title": "幸福筆記本",
+      "category": "生字詞",
+      "difficulty": 1,
+      "question": "跑完長距離後，他感到十分＿＿。",
+      "options": [
+        "疲憊",
+        "寬容",
+        "謹慎",
+        "興奮"
+      ],
+      "answerIndex": 0,
+      "answer": "疲憊",
+      "explanation": "運動後容易感到疲憊。",
+      "hint": "疲憊",
+      "tags": [
+        "疲憊"
+      ],
+      "reward": {
+        "gold": 11,
+        "exp": 11
+      }
+    },
+    {
+      "id": "N5L1-018",
+      "version": "南一",
+      "grade": "五上",
+      "lesson": "第一課",
+      "title": "幸福筆記本",
+      "category": "生字詞",
+      "difficulty": 2,
+      "question": "過馬路時要格外＿＿。",
+      "options": [
+        "謹慎",
+        "焦急",
+        "疲累",
+        "興高采烈"
+      ],
+      "answerIndex": 0,
+      "answer": "謹慎",
+      "explanation": "過馬路應仔細小心。",
+      "hint": "謹慎",
+      "tags": [
+        "謹慎"
+      ],
+      "reward": {
+        "gold": 5,
+        "exp": 5
+      }
+    },
+    {
+      "id": "N5L1-019",
+      "version": "南一",
+      "grade": "五上",
+      "lesson": "第一課",
+      "title": "幸福筆記本",
+      "category": "生字詞",
+      "difficulty": 1,
+      "question": "大家看到好消息，都＿＿地歡呼。",
+      "options": [
+        "興高采烈",
+        "疲憊不堪",
+        "焦急萬分",
+        "小心翼翼"
+      ],
+      "answerIndex": 0,
+      "answer": "興高采烈",
+      "explanation": "好消息讓人興高采烈。",
+      "hint": "興高采烈",
+      "tags": [
+        "興高采烈"
+      ],
+      "reward": {
+        "gold": 8,
+        "exp": 8
+      }
+    },
+    {
+      "id": "N5L1-020",
+      "version": "南一",
+      "grade": "五上",
+      "lesson": "第一課",
+      "title": "幸福筆記本",
+      "category": "生字詞",
+      "difficulty": 1,
+      "question": "比賽結束後，同學們＿＿圍住冠軍。",
+      "options": [
+        "一擁而上",
+        "年逾七十",
+        "謹慎小心",
+        "比較高低"
+      ],
+      "answerIndex": 0,
+      "answer": "一擁而上",
+      "explanation": "多人一起靠近可用一擁而上。",
+      "hint": "一擁而上",
+      "tags": [
+        "一擁而上"
+      ],
+      "reward": {
+        "gold": 11,
+        "exp": 11
+      }
+    },
+    {
+      "id": "N5L1-021",
+      "version": "南一",
+      "grade": "五上",
+      "lesson": "第一課",
+      "title": "幸福筆記本",
+      "category": "生字詞",
+      "difficulty": 2,
+      "question": "和「感謝」意思最接近的是？",
+      "options": [
+        "感恩",
+        "焦急",
+        "比較",
+        "賠償"
+      ],
+      "answerIndex": 0,
+      "answer": "感恩",
+      "explanation": "感恩和感謝意思相近。",
+      "hint": "感恩",
+      "tags": [
+        "感恩"
+      ],
+      "reward": {
+        "gold": 5,
+        "exp": 5
+      }
+    },
+    {
+      "id": "N5L1-022",
+      "version": "南一",
+      "grade": "五上",
+      "lesson": "第一課",
+      "title": "幸福筆記本",
+      "category": "生字詞",
+      "difficulty": 1,
+      "question": "「寬容」最接近？",
+      "options": [
+        "包容體諒",
+        "嚴厲責罵",
+        "完全忽視",
+        "斤斤計較"
+      ],
+      "answerIndex": 0,
+      "answer": "包容體諒",
+      "explanation": "寬容是包容和體諒。",
+      "hint": "寬容",
+      "tags": [
+        "寬容"
+      ],
+      "reward": {
+        "gold": 8,
+        "exp": 8
+      }
+    },
+    {
+      "id": "N5L1-023",
+      "version": "南一",
+      "grade": "五上",
+      "lesson": "第一課",
+      "title": "幸福筆記本",
+      "category": "生字詞",
+      "difficulty": 1,
+      "question": "「比較」的意思是？",
+      "options": [
+        "評比異同",
+        "全部丟掉",
+        "重新抄寫",
+        "放大聲音"
+      ],
+      "answerIndex": 0,
+      "answer": "評比異同",
+      "explanation": "比較是評比兩者的異同。",
+      "hint": "比較",
+      "tags": [
+        "比較"
+      ],
+      "reward": {
+        "gold": 11,
+        "exp": 11
+      }
+    },
+    {
+      "id": "N5L1-024",
+      "version": "南一",
+      "grade": "五上",
+      "lesson": "第一課",
+      "title": "幸福筆記本",
+      "category": "生字詞",
+      "difficulty": 2,
+      "question": "「拖」常和哪個動作有關？",
+      "options": [
+        "拉動物體",
+        "快速跳躍",
+        "大聲呼喊",
+        "仔細觀看"
+      ],
+      "answerIndex": 0,
+      "answer": "拉動物體",
+      "explanation": "拖常指拉著物體移動。",
+      "hint": "拖",
+      "tags": [
+        "拖"
+      ],
+      "reward": {
+        "gold": 5,
+        "exp": 5
+      }
+    },
+    {
+      "id": "N5L1-025",
+      "version": "南一",
+      "grade": "五上",
+      "lesson": "第一課",
+      "title": "幸福筆記本",
+      "category": "生字詞",
+      "difficulty": 1,
+      "question": "哪一組是相反詞？",
+      "options": [
+        "疲憊—精神",
+        "謹慎—小心",
+        "感恩—感謝",
+        "賠償—補償"
+      ],
+      "answerIndex": 0,
+      "answer": "疲憊—精神",
+      "explanation": "疲憊和精神狀態相反。",
+      "hint": "反義詞",
+      "tags": [
+        "反義詞"
+      ],
+      "reward": {
+        "gold": 8,
+        "exp": 8
+      }
+    },
+    {
+      "id": "N5L1-026",
+      "version": "南一",
+      "grade": "五上",
+      "lesson": "第一課",
+      "title": "幸福筆記本",
+      "category": "語詞運用",
+      "difficulty": 1,
+      "question": "哪一句正確使用「遇上」？",
+      "options": [
+        "我遇上了一場大雨。",
+        "我遇上一枝鉛筆。",
+        "天空遇上很藍。",
+        "我遇上作業寫完。"
+      ],
+      "answerIndex": 0,
+      "answer": "我遇上了一場大雨。",
+      "explanation": "遇上可表示碰到某件事。",
+      "hint": "遇上",
+      "tags": [
+        "遇上"
+      ],
+      "reward": {
+        "gold": 11,
+        "exp": 11
+      }
+    },
+    {
+      "id": "N5L1-027",
+      "version": "南一",
+      "grade": "五上",
+      "lesson": "第一課",
+      "title": "幸福筆記本",
+      "category": "語詞運用",
+      "difficulty": 2,
+      "question": "哪一句正確使用「賠償」？",
+      "options": [
+        "弄壞物品後應負責賠償。",
+        "我賠償朋友去公園。",
+        "天空賠償得很藍。",
+        "老師賠償我們寫字。"
+      ],
+      "answerIndex": 0,
+      "answer": "弄壞物品後應負責賠償。",
+      "explanation": "造成損失時應負責賠償。",
+      "hint": "賠償",
+      "tags": [
+        "賠償"
+      ],
+      "reward": {
+        "gold": 5,
+        "exp": 5
+      }
+    },
+    {
+      "id": "N5L1-028",
+      "version": "南一",
+      "grade": "五上",
+      "lesson": "第一課",
+      "title": "幸福筆記本",
+      "category": "語詞運用",
+      "difficulty": 1,
+      "question": "哪一句正確使用「擦痕」？",
+      "options": [
+        "桌面留下一道擦痕。",
+        "他高興得擦痕。",
+        "擦痕正在唱歌。",
+        "我擦痕去上學。"
+      ],
+      "answerIndex": 0,
+      "answer": "桌面留下一道擦痕。",
+      "explanation": "擦痕是摩擦留下的痕跡。",
+      "hint": "擦痕",
+      "tags": [
+        "擦痕"
+      ],
+      "reward": {
+        "gold": 8,
+        "exp": 8
+      }
+    },
+    {
+      "id": "N5L1-029",
+      "version": "南一",
+      "grade": "五上",
+      "lesson": "第一課",
+      "title": "幸福筆記本",
+      "category": "語詞運用",
+      "difficulty": 1,
+      "question": "哪一句正確使用「疲憊」？",
+      "options": [
+        "忙了一天，大家都很疲憊。",
+        "彩筆十分疲憊。",
+        "我把疲憊放進書包。",
+        "疲憊是一種水果。"
+      ],
+      "answerIndex": 0,
+      "answer": "忙了一天，大家都很疲憊。",
+      "explanation": "疲憊用來形容人很勞累。",
+      "hint": "疲憊",
+      "tags": [
+        "疲憊"
+      ],
+      "reward": {
+        "gold": 11,
+        "exp": 11
+      }
+    },
+    {
+      "id": "N5L1-030",
+      "version": "南一",
+      "grade": "五上",
+      "lesson": "第一課",
+      "title": "幸福筆記本",
+      "category": "語詞運用",
+      "difficulty": 2,
+      "question": "哪一句正確使用「比較」？",
+      "options": [
+        "我們比較兩種方法。",
+        "我比較進教室。",
+        "比較正在下雨。",
+        "他把比較吃完了。"
+      ],
+      "answerIndex": 0,
+      "answer": "我們比較兩種方法。",
+      "explanation": "比較是評比兩者。",
+      "hint": "比較",
+      "tags": [
+        "比較"
+      ],
+      "reward": {
+        "gold": 5,
+        "exp": 5
+      }
+    },
+    {
+      "id": "N5L1-031",
+      "version": "南一",
+      "grade": "五上",
+      "lesson": "第一課",
+      "title": "幸福筆記本",
+      "category": "語詞運用",
+      "difficulty": 1,
+      "question": "選出最通順的句子。",
+      "options": [
+        "他焦急地等待家人。",
+        "他焦急地安靜睡著。",
+        "他焦急地十分平靜。",
+        "他焦急地慢慢放心。"
+      ],
+      "answerIndex": 0,
+      "answer": "他焦急地等待家人。",
+      "explanation": "等待遲到家人時可能焦急。",
+      "hint": "焦急",
+      "tags": [
+        "焦急"
+      ],
+      "reward": {
+        "gold": 8,
+        "exp": 8
+      }
+    },
+    {
+      "id": "N5L1-032",
+      "version": "南一",
+      "grade": "五上",
+      "lesson": "第一課",
+      "title": "幸福筆記本",
+      "category": "語詞運用",
+      "difficulty": 1,
+      "question": "選出最通順的句子。",
+      "options": [
+        "大家興高采烈地慶祝。",
+        "大家興高采烈地哭泣。",
+        "大家興高采烈地悲傷。",
+        "大家興高采烈地擔心。"
+      ],
+      "answerIndex": 0,
+      "answer": "大家興高采烈地慶祝。",
+      "explanation": "慶祝和興高采烈情緒相符。",
+      "hint": "興高采烈",
+      "tags": [
+        "興高采烈"
+      ],
+      "reward": {
+        "gold": 11,
+        "exp": 11
+      }
+    },
+    {
+      "id": "N5L1-033",
+      "version": "南一",
+      "grade": "五上",
+      "lesson": "第一課",
+      "title": "幸福筆記本",
+      "category": "語詞運用",
+      "difficulty": 2,
+      "question": "「健步如飛」表示？",
+      "options": [
+        "走得快又有精神",
+        "停下休息",
+        "迷路了",
+        "腳受傷了"
+      ],
+      "answerIndex": 0,
+      "answer": "走得快又有精神",
+      "explanation": "健步如飛形容步伐快速有力。",
+      "hint": "健步如飛",
+      "tags": [
+        "健步如飛"
+      ],
+      "reward": {
+        "gold": 5,
+        "exp": 5
+      }
+    },
+    {
+      "id": "N5L1-034",
+      "version": "南一",
+      "grade": "五上",
+      "lesson": "第一課",
+      "title": "幸福筆記本",
+      "category": "語詞運用",
+      "difficulty": 1,
+      "question": "哪個情境適合「滿懷感恩」？",
+      "options": [
+        "得到幫助後真心道謝",
+        "忘記帶鉛筆",
+        "走路跌倒",
+        "比賽輸了生氣"
+      ],
+      "answerIndex": 0,
+      "answer": "得到幫助後真心道謝",
+      "explanation": "受到幫助後可滿懷感恩。",
+      "hint": "滿懷感恩",
+      "tags": [
+        "滿懷感恩"
+      ],
+      "reward": {
+        "gold": 8,
+        "exp": 8
+      }
+    },
+    {
+      "id": "N5L1-035",
+      "version": "南一",
+      "grade": "五上",
+      "lesson": "第一課",
+      "title": "幸福筆記本",
+      "category": "語詞運用",
+      "difficulty": 1,
+      "question": "哪個情境適合「疲憊不堪」？",
+      "options": [
+        "完成一整天登山",
+        "剛睡飽起床",
+        "收到禮物",
+        "坐著看書"
+      ],
+      "answerIndex": 0,
+      "answer": "完成一整天登山",
+      "explanation": "長時間活動後可能疲憊不堪。",
+      "hint": "疲憊不堪",
+      "tags": [
+        "疲憊不堪"
+      ],
+      "reward": {
+        "gold": 11,
+        "exp": 11
+      }
+    },
+    {
+      "id": "N5L1-036",
+      "version": "南一",
+      "grade": "五上",
+      "lesson": "第一課",
+      "title": "幸福筆記本",
+      "category": "語詞運用",
+      "difficulty": 2,
+      "question": "哪個情境適合「一擁而上」？",
+      "options": [
+        "隊友一起圍住得分者",
+        "一人安靜看書",
+        "老師獨自走路",
+        "小狗慢慢趴下"
+      ],
+      "answerIndex": 0,
+      "answer": "隊友一起圍住得分者",
+      "explanation": "多人同時靠近符合一擁而上。",
+      "hint": "一擁而上",
+      "tags": [
+        "一擁而上"
+      ],
+      "reward": {
+        "gold": 5,
+        "exp": 5
+      }
+    },
+    {
+      "id": "N5L1-037",
+      "version": "南一",
+      "grade": "五上",
+      "lesson": "第一課",
+      "title": "幸福筆記本",
+      "category": "語詞運用",
+      "difficulty": 1,
+      "question": "哪一組是相近詞？",
+      "options": [
+        "謹慎—小心",
+        "焦急—平靜",
+        "疲憊—精神",
+        "感恩—埋怨"
+      ],
+      "answerIndex": 0,
+      "answer": "謹慎—小心",
+      "explanation": "謹慎和小心意思相近。",
+      "hint": "近義詞",
+      "tags": [
+        "近義詞"
+      ],
+      "reward": {
+        "gold": 8,
+        "exp": 8
+      }
+    },
+    {
+      "id": "N5L1-038",
+      "version": "南一",
+      "grade": "五上",
+      "lesson": "第一課",
+      "title": "幸福筆記本",
+      "category": "語詞運用",
+      "difficulty": 1,
+      "question": "「僅」最適合哪一句？",
+      "options": [
+        "這次活動僅有十人參加。",
+        "天空僅得很藍。",
+        "花朵僅出香味。",
+        "雨水僅進河裡。"
+      ],
+      "answerIndex": 0,
+      "answer": "這次活動僅有十人參加。",
+      "explanation": "僅有表示只有。",
+      "hint": "僅",
+      "tags": [
+        "僅"
+      ],
+      "reward": {
+        "gold": 11,
+        "exp": 11
+      }
+    },
+    {
+      "id": "N5L1-039",
+      "version": "南一",
+      "grade": "五上",
+      "lesson": "第一課",
+      "title": "幸福筆記本",
+      "category": "語詞運用",
+      "difficulty": 2,
+      "question": "「灌注」最適合哪一句？",
+      "options": [
+        "老師把心力灌注在教學上。",
+        "我把鞋子灌注在腳上。",
+        "小鳥把歌聲灌注成紅色。",
+        "弟弟把鉛筆灌注得很快。"
+      ],
+      "answerIndex": 0,
+      "answer": "老師把心力灌注在教學上。",
+      "explanation": "灌注心力表示投入心力。",
+      "hint": "灌注",
+      "tags": [
+        "灌注"
+      ],
+      "reward": {
+        "gold": 5,
+        "exp": 5
+      }
+    },
+    {
+      "id": "N5L1-040",
+      "version": "南一",
+      "grade": "五上",
+      "lesson": "第一課",
+      "title": "幸福筆記本",
+      "category": "語詞運用",
+      "difficulty": 1,
+      "question": "哪種做法表現「寬容」？",
+      "options": [
+        "體諒別人無心的過失",
+        "嘲笑別人錯誤",
+        "不聽解釋",
+        "立刻責罵"
+      ],
+      "answerIndex": 0,
+      "answer": "體諒別人無心的過失",
+      "explanation": "願意體諒他人是寬容。",
+      "hint": "寬容",
+      "tags": [
+        "寬容"
+      ],
+      "reward": {
+        "gold": 8,
+        "exp": 8
+      }
+    },
+    {
+      "id": "N5L1-041",
+      "version": "南一",
+      "grade": "五上",
+      "lesson": "第一課",
+      "title": "幸福筆記本",
+      "category": "語詞運用",
+      "difficulty": 1,
+      "question": "「幸福感」和哪一項最相關？",
+      "options": [
+        "珍惜生活中的美好",
+        "只記別人缺點",
+        "每天和人比較",
+        "遇事責怪別人"
+      ],
+      "answerIndex": 0,
+      "answer": "珍惜生活中的美好",
+      "explanation": "留意美好能提升幸福感。",
+      "hint": "幸福感",
+      "tags": [
+        "幸福感"
+      ],
+      "reward": {
+        "gold": 11,
+        "exp": 11
+      }
+    },
+    {
+      "id": "N5L1-042",
+      "version": "南一",
+      "grade": "五上",
+      "lesson": "第一課",
+      "title": "幸福筆記本",
+      "category": "語詞運用",
+      "difficulty": 2,
+      "question": "哪一句前因後果完整？",
+      "options": [
+        "因為互相幫助，所以順利完成。",
+        "因為互相幫助，但是。",
+        "所以完成，因為。",
+        "大家因為所以完成。"
+      ],
+      "answerIndex": 0,
+      "answer": "因為互相幫助，所以順利完成。",
+      "explanation": "因為所以句型完整。",
+      "hint": "因果句",
+      "tags": [
+        "因果句"
+      ],
+      "reward": {
+        "gold": 5,
+        "exp": 5
+      }
+    },
+    {
+      "id": "N5L1-043",
+      "version": "南一",
+      "grade": "五上",
+      "lesson": "第一課",
+      "title": "幸福筆記本",
+      "category": "語詞運用",
+      "difficulty": 1,
+      "question": "哪個句子排列正確？",
+      "options": [
+        "同學們興高采烈地參加淨灘活動。",
+        "淨灘活動同學們參加興高采烈地。",
+        "參加同學們淨灘活動興高采烈地。",
+        "興高采烈地淨灘活動同學們參加。"
+      ],
+      "answerIndex": 0,
+      "answer": "同學們興高采烈地參加淨灘活動。",
+      "explanation": "主語、狀語、動詞、受詞順序正確。",
+      "hint": "句子重組",
+      "tags": [
+        "句子重組"
+      ],
+      "reward": {
+        "gold": 8,
+        "exp": 8
+      }
+    },
+    {
+      "id": "N5L1-044",
+      "version": "南一",
+      "grade": "五上",
+      "lesson": "第一課",
+      "title": "幸福筆記本",
+      "category": "語詞運用",
+      "difficulty": 1,
+      "question": "「只要和朋友在一起，即使聊天，也很放鬆。」表達？",
+      "options": [
+        "與朋友相處帶來快樂",
+        "聊天浪費時間",
+        "只能在學校見朋友",
+        "放鬆不能說話"
+      ],
+      "answerIndex": 0,
+      "answer": "與朋友相處帶來快樂",
+      "explanation": "句子強調陪伴帶來快樂。",
+      "hint": "句意",
+      "tags": [
+        "句意"
+      ],
+      "reward": {
+        "gold": 11,
+        "exp": 11
+      }
+    },
+    {
+      "id": "N5L1-045",
+      "version": "南一",
+      "grade": "五上",
+      "lesson": "第一課",
+      "title": "幸福筆記本",
+      "category": "語詞運用",
+      "difficulty": 2,
+      "question": "「幸福像陽光」中的「幸福」給人什麼感受？",
+      "options": [
+        "溫暖美好",
+        "冰冷可怕",
+        "疲倦沉重",
+        "緊張焦急"
+      ],
+      "answerIndex": 0,
+      "answer": "溫暖美好",
+      "explanation": "陽光常象徵溫暖和美好。",
+      "hint": "語意",
+      "tags": [
+        "語意"
+      ],
+      "reward": {
+        "gold": 5,
+        "exp": 5
+      }
+    },
+    {
+      "id": "N5L1-046",
+      "version": "南一",
+      "grade": "五上",
+      "lesson": "第一課",
+      "title": "幸福筆記本",
+      "category": "語詞運用",
+      "difficulty": 1,
+      "question": "「小心翼翼」最適合哪個情境？",
+      "options": [
+        "捧著易碎玻璃杯",
+        "大聲歡呼",
+        "快速奔跑",
+        "開心跳舞"
+      ],
+      "answerIndex": 0,
+      "answer": "捧著易碎玻璃杯",
+      "explanation": "拿易碎物品時需要小心翼翼。",
+      "hint": "小心翼翼",
+      "tags": [
+        "小心翼翼"
+      ],
+      "reward": {
+        "gold": 8,
+        "exp": 8
+      }
+    },
+    {
+      "id": "N5L1-047",
+      "version": "南一",
+      "grade": "五上",
+      "lesson": "第一課",
+      "title": "幸福筆記本",
+      "category": "語詞運用",
+      "difficulty": 1,
+      "question": "「爭辯」最接近？",
+      "options": [
+        "互相辯論",
+        "一起出發",
+        "互相幫助",
+        "雙方合作"
+      ],
+      "answerIndex": 0,
+      "answer": "互相辯論",
+      "explanation": "爭辯是互相辯論。",
+      "hint": "爭辯",
+      "tags": [
+        "爭辯"
+      ],
+      "reward": {
+        "gold": 11,
+        "exp": 11
+      }
+    },
+    {
+      "id": "N5L1-048",
+      "version": "南一",
+      "grade": "五上",
+      "lesson": "第一課",
+      "title": "幸福筆記本",
+      "category": "語詞運用",
+      "difficulty": 2,
+      "question": "「回味」最接近？",
+      "options": [
+        "再次品味感受",
+        "立刻忘記",
+        "大聲責備",
+        "快速離開"
+      ],
+      "answerIndex": 0,
+      "answer": "再次品味感受",
+      "explanation": "回味是再次細細體會。",
+      "hint": "回味",
+      "tags": [
+        "回味"
+      ],
+      "reward": {
+        "gold": 5,
+        "exp": 5
+      }
+    },
+    {
+      "id": "N5L1-049",
+      "version": "南一",
+      "grade": "五上",
+      "lesson": "第一課",
+      "title": "幸福筆記本",
+      "category": "語詞運用",
+      "difficulty": 1,
+      "question": "「美好時刻」可以指？",
+      "options": [
+        "令人珍惜的時光",
+        "最困難的考試",
+        "破損的物品",
+        "忘記的作業"
+      ],
+      "answerIndex": 0,
+      "answer": "令人珍惜的時光",
+      "explanation": "美好時刻是值得珍惜的時光。",
+      "hint": "美好時刻",
+      "tags": [
+        "美好時刻"
+      ],
+      "reward": {
+        "gold": 8,
+        "exp": 8
+      }
+    },
+    {
+      "id": "N5L1-050",
+      "version": "南一",
+      "grade": "五上",
+      "lesson": "第一課",
+      "title": "幸福筆記本",
+      "category": "語詞運用",
+      "difficulty": 1,
+      "question": "哪一句最能表達感恩？",
+      "options": [
+        "謝謝你在我需要時幫助我。",
+        "這是你應該做的。",
+        "我不需要你的幫忙。",
+        "都是你的錯。"
+      ],
+      "answerIndex": 0,
+      "answer": "謝謝你在我需要時幫助我。",
+      "explanation": "直接表達感謝最符合感恩。",
+      "hint": "感恩",
+      "tags": [
+        "感恩"
+      ],
+      "reward": {
+        "gold": 11,
+        "exp": 11
+      }
+    },
+    {
+      "id": "N5L1-051",
+      "version": "南一",
+      "grade": "五上",
+      "lesson": "第一課",
+      "title": "幸福筆記本",
+      "category": "課文理解",
+      "difficulty": 2,
+      "question": "作者床頭放著一本什麼？",
+      "options": [
+        "幸福筆記本",
+        "相簿",
+        "字典",
+        "聯絡簿"
+      ],
+      "answerIndex": 0,
+      "answer": "幸福筆記本",
+      "explanation": "課文以幸福筆記本展開。",
+      "hint": "課文",
+      "tags": [
+        "課文"
+      ],
+      "reward": {
+        "gold": 5,
+        "exp": 5
+      }
+    },
+    {
+      "id": "N5L1-052",
+      "version": "南一",
+      "grade": "五上",
+      "lesson": "第一課",
+      "title": "幸福筆記本",
+      "category": "課文理解",
+      "difficulty": 1,
+      "question": "幸福筆記本主要記錄什麼？",
+      "options": [
+        "生活中的美好時刻",
+        "考試分數",
+        "所有花費",
+        "別人的缺點"
+      ],
+      "answerIndex": 0,
+      "answer": "生活中的美好時刻",
+      "explanation": "作者用它記錄生活中的美好。",
+      "hint": "記錄",
+      "tags": [
+        "記錄"
+      ],
+      "reward": {
+        "gold": 8,
+        "exp": 8
+      }
+    },
+    {
+      "id": "N5L1-053",
+      "version": "南一",
+      "grade": "五上",
+      "lesson": "第一課",
+      "title": "幸福筆記本",
+      "category": "課文理解",
+      "difficulty": 1,
+      "question": "作者每天回想幾件感恩的事？",
+      "options": [
+        "三件",
+        "一件",
+        "兩件",
+        "十件"
+      ],
+      "answerIndex": 0,
+      "answer": "三件",
+      "explanation": "課文提到每天回想三件事。",
+      "hint": "三件事",
+      "tags": [
+        "三件事"
+      ],
+      "reward": {
+        "gold": 11,
+        "exp": 11
+      }
+    },
+    {
+      "id": "N5L1-054",
+      "version": "南一",
+      "grade": "五上",
+      "lesson": "第一課",
+      "title": "幸福筆記本",
+      "category": "課文理解",
+      "difficulty": 2,
+      "question": "作者完成路跑後，家人做了什麼？",
+      "options": [
+        "一起擁抱他",
+        "立刻離開",
+        "責備太慢",
+        "要求再跑"
+      ],
+      "answerIndex": 0,
+      "answer": "一起擁抱他",
+      "explanation": "家人的擁抱帶來幸福。",
+      "hint": "家人擁抱",
+      "tags": [
+        "家人擁抱"
+      ],
+      "reward": {
+        "gold": 5,
+        "exp": 5
+      }
+    },
+    {
+      "id": "N5L1-055",
+      "version": "南一",
+      "grade": "五上",
+      "lesson": "第一課",
+      "title": "幸福筆記本",
+      "category": "課文理解",
+      "difficulty": 1,
+      "question": "作者父親年紀雖大，身體如何？",
+      "options": [
+        "健康有活力",
+        "完全不能走",
+        "每天住院",
+        "不喜歡運動"
+      ],
+      "answerIndex": 0,
+      "answer": "健康有活力",
+      "explanation": "父親仍健步如飛。",
+      "hint": "父親",
+      "tags": [
+        "父親"
+      ],
+      "reward": {
+        "gold": 8,
+        "exp": 8
+      }
+    },
+    {
+      "id": "N5L1-056",
+      "version": "南一",
+      "grade": "五上",
+      "lesson": "第一課",
+      "title": "幸福筆記本",
+      "category": "課文理解",
+      "difficulty": 1,
+      "question": "擦到別人的車後，作者怎麼做？",
+      "options": [
+        "留下聯絡方式",
+        "立刻離開",
+        "假裝不知道",
+        "藏起車子"
+      ],
+      "answerIndex": 0,
+      "answer": "留下聯絡方式",
+      "explanation": "作者誠實負責。",
+      "hint": "停車事件",
+      "tags": [
+        "停車事件"
+      ],
+      "reward": {
+        "gold": 11,
+        "exp": 11
+      }
+    },
+    {
+      "id": "N5L1-057",
+      "version": "南一",
+      "grade": "五上",
+      "lesson": "第一課",
+      "title": "幸福筆記本",
+      "category": "課文理解",
+      "difficulty": 2,
+      "question": "車主知道事情後，態度如何？",
+      "options": [
+        "寬容處理",
+        "大聲辱罵",
+        "不聽解釋",
+        "要求不合理賠償"
+      ],
+      "answerIndex": 0,
+      "answer": "寬容處理",
+      "explanation": "車主寬容回應。",
+      "hint": "車主",
+      "tags": [
+        "車主"
+      ],
+      "reward": {
+        "gold": 5,
+        "exp": 5
+      }
+    },
+    {
+      "id": "N5L1-058",
+      "version": "南一",
+      "grade": "五上",
+      "lesson": "第一課",
+      "title": "幸福筆記本",
+      "category": "課文理解",
+      "difficulty": 1,
+      "question": "幸福筆記本像什麼？",
+      "options": [
+        "提醒人發現幸福的工具",
+        "記錄錯誤的簿子",
+        "計算成績的表格",
+        "旅行專用本"
+      ],
+      "answerIndex": 0,
+      "answer": "提醒人發現幸福的工具",
+      "explanation": "它幫助作者看見美好。",
+      "hint": "功能",
+      "tags": [
+        "功能"
+      ],
+      "reward": {
+        "gold": 8,
+        "exp": 8
+      }
+    },
+    {
+      "id": "N5L1-059",
+      "version": "南一",
+      "grade": "五上",
+      "lesson": "第一課",
+      "title": "幸福筆記本",
+      "category": "課文理解",
+      "difficulty": 1,
+      "question": "作者為何記下家人的擁抱？",
+      "options": [
+        "感受到支持與愛",
+        "記錄衣服顏色",
+        "忘記比賽結果",
+        "想責怪家人"
+      ],
+      "answerIndex": 0,
+      "answer": "感受到支持與愛",
+      "explanation": "擁抱讓作者感受到愛。",
+      "hint": "家人擁抱",
+      "tags": [
+        "家人擁抱"
+      ],
+      "reward": {
+        "gold": 11,
+        "exp": 11
+      }
+    },
+    {
+      "id": "N5L1-060",
+      "version": "南一",
+      "grade": "五上",
+      "lesson": "第一課",
+      "title": "幸福筆記本",
+      "category": "課文理解",
+      "difficulty": 2,
+      "question": "看到父親健步如飛，作者最可能感到？",
+      "options": [
+        "感恩父親健康",
+        "埋怨父親太快",
+        "害怕父親生氣",
+        "覺得浪費時間"
+      ],
+      "answerIndex": 0,
+      "answer": "感恩父親健康",
+      "explanation": "父親健康值得感恩。",
+      "hint": "父親",
+      "tags": [
+        "父親"
+      ],
+      "reward": {
+        "gold": 5,
+        "exp": 5
+      }
+    },
+    {
+      "id": "N5L1-061",
+      "version": "南一",
+      "grade": "五上",
+      "lesson": "第一課",
+      "title": "幸福筆記本",
+      "category": "課文理解",
+      "difficulty": 1,
+      "question": "作者留下聯絡方式表現何種品格？",
+      "options": [
+        "誠實負責",
+        "逃避責任",
+        "斤斤計較",
+        "驕傲自大"
+      ],
+      "answerIndex": 0,
+      "answer": "誠實負責",
+      "explanation": "主動處理是誠實負責。",
+      "hint": "品格",
+      "tags": [
+        "品格"
+      ],
+      "reward": {
+        "gold": 8,
+        "exp": 8
+      }
+    },
+    {
+      "id": "N5L1-062",
+      "version": "南一",
+      "grade": "五上",
+      "lesson": "第一課",
+      "title": "幸福筆記本",
+      "category": "課文理解",
+      "difficulty": 1,
+      "question": "車主的寬容讓作者體會？",
+      "options": [
+        "善意帶來溫暖",
+        "犯錯不用負責",
+        "問題都能忽略",
+        "道歉就不用改進"
+      ],
+      "answerIndex": 0,
+      "answer": "善意帶來溫暖",
+      "explanation": "善意互動帶來溫暖。",
+      "hint": "寬容",
+      "tags": [
+        "寬容"
+      ],
+      "reward": {
+        "gold": 11,
+        "exp": 11
+      }
+    },
+    {
+      "id": "N5L1-063",
+      "version": "南一",
+      "grade": "五上",
+      "lesson": "第一課",
+      "title": "幸福筆記本",
+      "category": "課文理解",
+      "difficulty": 2,
+      "question": "本文主要告訴讀者？",
+      "options": [
+        "留意並記錄幸福與感恩",
+        "每天參加路跑",
+        "買筆記本就成功",
+        "問題交給別人"
+      ],
+      "answerIndex": 0,
+      "answer": "留意並記錄幸福與感恩",
+      "explanation": "主旨是發現與感謝日常美好。",
+      "hint": "主旨",
+      "tags": [
+        "主旨"
+      ],
+      "reward": {
+        "gold": 5,
+        "exp": 5
+      }
+    },
+    {
+      "id": "N5L1-064",
+      "version": "南一",
+      "grade": "五上",
+      "lesson": "第一課",
+      "title": "幸福筆記本",
+      "category": "課文理解",
+      "difficulty": 1,
+      "question": "哪件事沒有出現在課文？",
+      "options": [
+        "獲得全班第一名",
+        "父親健康",
+        "家人擁抱",
+        "車主寬容"
+      ],
+      "answerIndex": 0,
+      "answer": "獲得全班第一名",
+      "explanation": "課文未提到全班第一名。",
+      "hint": "辨識",
+      "tags": [
+        "辨識"
+      ],
+      "reward": {
+        "gold": 8,
+        "exp": 8
+      }
+    },
+    {
+      "id": "N5L1-065",
+      "version": "南一",
+      "grade": "五上",
+      "lesson": "第一課",
+      "title": "幸福筆記本",
+      "category": "課文理解",
+      "difficulty": 1,
+      "question": "每天記錄美好最可能帶來？",
+      "options": [
+        "更容易看見幸福",
+        "更容易忘事",
+        "更愛抱怨",
+        "更怕與人相處"
+      ],
+      "answerIndex": 0,
+      "answer": "更容易看見幸福",
+      "explanation": "記錄能讓人更敏銳發現美好。",
+      "hint": "影響",
+      "tags": [
+        "影響"
+      ],
+      "reward": {
+        "gold": 11,
+        "exp": 11
+      }
+    },
+    {
+      "id": "N5L1-066",
+      "version": "南一",
+      "grade": "五上",
+      "lesson": "第一課",
+      "title": "幸福筆記本",
+      "category": "課文理解",
+      "difficulty": 2,
+      "question": "幸福筆記本在文章中的功能？",
+      "options": [
+        "串連不同幸福事例",
+        "介紹製作方法",
+        "比較文具品牌",
+        "說明比賽規則"
+      ],
+      "answerIndex": 0,
+      "answer": "串連不同幸福事例",
+      "explanation": "筆記本串連多個生活事例。",
+      "hint": "文章結構",
+      "tags": [
+        "文章結構"
+      ],
+      "reward": {
+        "gold": 5,
+        "exp": 5
+      }
+    },
+    {
+      "id": "N5L1-067",
+      "version": "南一",
+      "grade": "五上",
+      "lesson": "第一課",
+      "title": "幸福筆記本",
+      "category": "課文理解",
+      "difficulty": 1,
+      "question": "父親的例子主要說明？",
+      "options": [
+        "健康值得珍惜",
+        "年紀大不能運動",
+        "運動一定要比賽",
+        "父親比作者快"
+      ],
+      "answerIndex": 0,
+      "answer": "健康值得珍惜",
+      "explanation": "健康本身就是幸福。",
+      "hint": "父親",
+      "tags": [
+        "父親"
+      ],
+      "reward": {
+        "gold": 8,
+        "exp": 8
+      }
+    },
+    {
+      "id": "N5L1-068",
+      "version": "南一",
+      "grade": "五上",
+      "lesson": "第一課",
+      "title": "幸福筆記本",
+      "category": "課文理解",
+      "difficulty": 1,
+      "question": "路跑例子中最幸福的畫面？",
+      "options": [
+        "家人擁抱作者",
+        "作者收拾物品",
+        "觀眾離開",
+        "天空變暗"
+      ],
+      "answerIndex": 0,
+      "answer": "家人擁抱作者",
+      "explanation": "擁抱傳達愛與支持。",
+      "hint": "路跑",
+      "tags": [
+        "路跑"
+      ],
+      "reward": {
+        "gold": 11,
+        "exp": 11
+      }
+    },
+    {
+      "id": "N5L1-069",
+      "version": "南一",
+      "grade": "五上",
+      "lesson": "第一課",
+      "title": "幸福筆記本",
+      "category": "課文理解",
+      "difficulty": 2,
+      "question": "遇到無心過失時應怎麼做？",
+      "options": [
+        "誠實面對並負責",
+        "趕快離開",
+        "推給別人",
+        "假裝沒發生"
+      ],
+      "answerIndex": 0,
+      "answer": "誠實面對並負責",
+      "explanation": "課文作者選擇誠實負責。",
+      "hint": "責任",
+      "tags": [
+        "責任"
+      ],
+      "reward": {
+        "gold": 5,
+        "exp": 5
+      }
+    },
+    {
+      "id": "N5L1-070",
+      "version": "南一",
+      "grade": "五上",
+      "lesson": "第一課",
+      "title": "幸福筆記本",
+      "category": "課文理解",
+      "difficulty": 1,
+      "question": "安排多個生活事例的好處？",
+      "options": [
+        "說明幸福存在各種日常情境",
+        "讓文章只剩列表",
+        "讓人無法掌握主旨",
+        "變成新聞報導"
+      ],
+      "answerIndex": 0,
+      "answer": "說明幸福存在各種日常情境",
+      "explanation": "不同事例共同支持主旨。",
+      "hint": "舉例",
+      "tags": [
+        "舉例"
+      ],
+      "reward": {
+        "gold": 8,
+        "exp": 8
+      }
+    },
+    {
+      "id": "N5L1-071",
+      "version": "南一",
+      "grade": "五上",
+      "lesson": "第一課",
+      "title": "幸福筆記本",
+      "category": "課文理解",
+      "difficulty": 1,
+      "question": "擦車事件中感到幸福的關鍵？",
+      "options": [
+        "誠實負責並得到寬容",
+        "車子完全沒痕跡",
+        "不用留資料",
+        "別人替他處理"
+      ],
+      "answerIndex": 0,
+      "answer": "誠實負責並得到寬容",
+      "explanation": "誠實與寬容帶來溫暖。",
+      "hint": "推論",
+      "tags": [
+        "推論"
+      ],
+      "reward": {
+        "gold": 11,
+        "exp": 11
+      }
+    },
+    {
+      "id": "N5L1-072",
+      "version": "南一",
+      "grade": "五上",
+      "lesson": "第一課",
+      "title": "幸福筆記本",
+      "category": "課文理解",
+      "difficulty": 2,
+      "question": "全文寫作順序是？",
+      "options": [
+        "介紹筆記本—舉例—說明感恩意義",
+        "結論—外貌—天氣",
+        "問題—實驗—數據",
+        "地點—交通—美食"
+      ],
+      "answerIndex": 0,
+      "answer": "介紹筆記本—舉例—說明感恩意義",
+      "explanation": "文章先介紹再舉例最後點題。",
+      "hint": "文章結構",
+      "tags": [
+        "文章結構"
+      ],
+      "reward": {
+        "gold": 5,
+        "exp": 5
+      }
+    },
+    {
+      "id": "N5L1-073",
+      "version": "南一",
+      "grade": "五上",
+      "lesson": "第一課",
+      "title": "幸福筆記本",
+      "category": "課文理解",
+      "difficulty": 1,
+      "question": "記錄幸福不代表？",
+      "options": [
+        "生活永遠沒有困難",
+        "願意看見美好",
+        "感謝他人善意",
+        "珍惜家人陪伴"
+      ],
+      "answerIndex": 0,
+      "answer": "生活永遠沒有困難",
+      "explanation": "記錄幸福不等於沒有困難。",
+      "hint": "辨析",
+      "tags": [
+        "辨析"
+      ],
+      "reward": {
+        "gold": 8,
+        "exp": 8
+      }
+    },
+    {
+      "id": "N5L1-074",
+      "version": "南一",
+      "grade": "五上",
+      "lesson": "第一課",
+      "title": "幸福筆記本",
+      "category": "課文理解",
+      "difficulty": 1,
+      "question": "感恩被稱為「魔法」是因為？",
+      "options": [
+        "改變看待生活的方式",
+        "真的能施法",
+        "讓困難消失",
+        "不用努力"
+      ],
+      "answerIndex": 0,
+      "answer": "改變看待生活的方式",
+      "explanation": "感恩能改變注意焦點。",
+      "hint": "譬喻",
+      "tags": [
+        "譬喻"
+      ],
+      "reward": {
+        "gold": 11,
+        "exp": 11
+      }
+    },
+    {
+      "id": "N5L1-075",
+      "version": "南一",
+      "grade": "五上",
+      "lesson": "第一課",
+      "title": "幸福筆記本",
+      "category": "課文理解",
+      "difficulty": 2,
+      "question": "讀完本文最適合採取？",
+      "options": [
+        "每天記下一件感謝的事",
+        "只記昂貴禮物",
+        "犯錯就逃避",
+        "只關心成功"
+      ],
+      "answerIndex": 0,
+      "answer": "每天記下一件感謝的事",
+      "explanation": "練習感恩符合文章精神。",
+      "hint": "閱讀延伸",
+      "tags": [
+        "閱讀延伸"
+      ],
+      "reward": {
+        "gold": 5,
+        "exp": 5
+      }
+    },
+    {
+      "id": "N5L1-076",
+      "version": "南一",
+      "grade": "五上",
+      "lesson": "第一課",
+      "title": "幸福筆記本",
+      "category": "修辭句型",
+      "difficulty": 1,
+      "question": "「感恩是幸福的魔法」使用何種修辭？",
+      "options": [
+        "譬喻",
+        "排比",
+        "設問",
+        "誇飾"
+      ],
+      "answerIndex": 0,
+      "answer": "譬喻",
+      "explanation": "把感恩比作魔法。",
+      "hint": "譬喻",
+      "tags": [
+        "譬喻"
+      ],
+      "reward": {
+        "gold": 8,
+        "exp": 8
+      }
+    },
+    {
+      "id": "N5L1-077",
+      "version": "南一",
+      "grade": "五上",
+      "lesson": "第一課",
+      "title": "幸福筆記本",
+      "category": "修辭句型",
+      "difficulty": 1,
+      "question": "「像把聚光燈照在美好地方」是？",
+      "options": [
+        "譬喻",
+        "對偶",
+        "引用",
+        "轉化"
+      ],
+      "answerIndex": 0,
+      "answer": "譬喻",
+      "explanation": "以聚光燈比喻注意力。",
+      "hint": "譬喻",
+      "tags": [
+        "譬喻"
+      ],
+      "reward": {
+        "gold": 11,
+        "exp": 11
+      }
+    },
+    {
+      "id": "N5L1-078",
+      "version": "南一",
+      "grade": "五上",
+      "lesson": "第一課",
+      "title": "幸福筆記本",
+      "category": "修辭句型",
+      "difficulty": 2,
+      "question": "哪一句使用譬喻？",
+      "options": [
+        "月亮像小船掛在天空。",
+        "小鳥在唱歌。",
+        "今天下雨。",
+        "哥哥整理書包。"
+      ],
+      "answerIndex": 0,
+      "answer": "月亮像小船掛在天空。",
+      "explanation": "用像把月亮比作小船。",
+      "hint": "譬喻",
+      "tags": [
+        "譬喻"
+      ],
+      "reward": {
+        "gold": 5,
+        "exp": 5
+      }
+    },
+    {
+      "id": "N5L1-079",
+      "version": "南一",
+      "grade": "五上",
+      "lesson": "第一課",
+      "title": "幸福筆記本",
+      "category": "修辭句型",
+      "difficulty": 1,
+      "question": "和「接著」功能相同的是？",
+      "options": [
+        "然後",
+        "因為",
+        "雖然",
+        "只要"
+      ],
+      "answerIndex": 0,
+      "answer": "然後",
+      "explanation": "接著與然後都表示順序。",
+      "hint": "順序",
+      "tags": [
+        "順序"
+      ],
+      "reward": {
+        "gold": 8,
+        "exp": 8
+      }
+    },
+    {
+      "id": "N5L1-080",
+      "version": "南一",
+      "grade": "五上",
+      "lesson": "第一課",
+      "title": "幸福筆記本",
+      "category": "修辭句型",
+      "difficulty": 1,
+      "question": "「即使困難，也要面對」屬於？",
+      "options": [
+        "假設讓步",
+        "因果",
+        "條件",
+        "並列"
+      ],
+      "answerIndex": 0,
+      "answer": "假設讓步",
+      "explanation": "即使……也……表示讓步。",
+      "hint": "即使也",
+      "tags": [
+        "即使也"
+      ],
+      "reward": {
+        "gold": 11,
+        "exp": 11
+      }
+    },
+    {
+      "id": "N5L1-081",
+      "version": "南一",
+      "grade": "五上",
+      "lesson": "第一課",
+      "title": "幸福筆記本",
+      "category": "修辭句型",
+      "difficulty": 2,
+      "question": "「只要記錄美好，就會幸福」屬於？",
+      "options": [
+        "條件",
+        "轉折",
+        "選擇",
+        "排比"
+      ],
+      "answerIndex": 0,
+      "answer": "條件",
+      "explanation": "只要……就……表示條件。",
+      "hint": "只要就",
+      "tags": [
+        "只要就"
+      ],
+      "reward": {
+        "gold": 5,
+        "exp": 5
+      }
+    },
+    {
+      "id": "N5L1-082",
+      "version": "南一",
+      "grade": "五上",
+      "lesson": "第一課",
+      "title": "幸福筆記本",
+      "category": "修辭句型",
+      "difficulty": 1,
+      "question": "「先、接著、最後」表示？",
+      "options": [
+        "事情先後順序",
+        "比較異同",
+        "提出反問",
+        "描寫外貌"
+      ],
+      "answerIndex": 0,
+      "answer": "事情先後順序",
+      "explanation": "這些是順序詞。",
+      "hint": "順序詞",
+      "tags": [
+        "順序詞"
+      ],
+      "reward": {
+        "gold": 8,
+        "exp": 8
+      }
+    },
+    {
+      "id": "N5L1-083",
+      "version": "南一",
+      "grade": "五上",
+      "lesson": "第一課",
+      "title": "幸福筆記本",
+      "category": "修辭句型",
+      "difficulty": 1,
+      "question": "哪句正確使用「即使……也……」？",
+      "options": [
+        "即使很冷，我也會運動。",
+        "即使很冷，所以穿外套。",
+        "即使很冷，因為在家。",
+        "即使很冷，但是也。"
+      ],
+      "answerIndex": 0,
+      "answer": "即使很冷，我也會運動。",
+      "explanation": "句型結構完整。",
+      "hint": "即使也",
+      "tags": [
+        "即使也"
+      ],
+      "reward": {
+        "gold": 11,
+        "exp": 11
+      }
+    },
+    {
+      "id": "N5L1-084",
+      "version": "南一",
+      "grade": "五上",
+      "lesson": "第一課",
+      "title": "幸福筆記本",
+      "category": "修辭句型",
+      "difficulty": 2,
+      "question": "哪句正確使用「接著」？",
+      "options": [
+        "洗好水果，接著切小塊。",
+        "接著很高興的顏色。",
+        "天空接著是桌子。",
+        "把接著放入盒子。"
+      ],
+      "answerIndex": 0,
+      "answer": "洗好水果，接著切小塊。",
+      "explanation": "接著用於下一個動作。",
+      "hint": "接著",
+      "tags": [
+        "接著"
+      ],
+      "reward": {
+        "gold": 5,
+        "exp": 5
+      }
+    },
+    {
+      "id": "N5L1-085",
+      "version": "南一",
+      "grade": "五上",
+      "lesson": "第一課",
+      "title": "幸福筆記本",
+      "category": "修辭句型",
+      "difficulty": 1,
+      "question": "「感恩像一盞燈」想表達？",
+      "options": [
+        "感恩幫人看見美好",
+        "感恩是真燈具",
+        "只能晚上感恩",
+        "感恩讓燈泡亮"
+      ],
+      "answerIndex": 0,
+      "answer": "感恩幫人看見美好",
+      "explanation": "譬喻感恩能照亮美好。",
+      "hint": "句意",
+      "tags": [
+        "句意"
+      ],
+      "reward": {
+        "gold": 8,
+        "exp": 8
+      }
+    },
+    {
+      "id": "N5L1-086",
+      "version": "南一",
+      "grade": "五上",
+      "lesson": "第一課",
+      "title": "幸福筆記本",
+      "category": "修辭句型",
+      "difficulty": 1,
+      "question": "哪句是排比句？",
+      "options": [
+        "感謝家人、感謝朋友、感謝老師。",
+        "我今天開心。",
+        "桌上有書。",
+        "請關門。"
+      ],
+      "answerIndex": 0,
+      "answer": "感謝家人、感謝朋友、感謝老師。",
+      "explanation": "結構相近分句連續排列。",
+      "hint": "排比",
+      "tags": [
+        "排比"
+      ],
+      "reward": {
+        "gold": 11,
+        "exp": 11
+      }
+    },
+    {
+      "id": "N5L1-087",
+      "version": "南一",
+      "grade": "五上",
+      "lesson": "第一課",
+      "title": "幸福筆記本",
+      "category": "修辭句型",
+      "difficulty": 2,
+      "question": "補充：雖然路很長，＿＿。",
+      "options": [
+        "但是他仍跑到終點",
+        "所以他從未出發",
+        "因為天氣好",
+        "而且但是很累"
+      ],
+      "answerIndex": 0,
+      "answer": "但是他仍跑到終點",
+      "explanation": "雖然……但是……表示轉折。",
+      "hint": "雖然但是",
+      "tags": [
+        "雖然但是"
+      ],
+      "reward": {
+        "gold": 5,
+        "exp": 5
+      }
+    },
+    {
+      "id": "N5L1-088",
+      "version": "南一",
+      "grade": "五上",
+      "lesson": "第一課",
+      "title": "幸福筆記本",
+      "category": "修辭句型",
+      "difficulty": 1,
+      "question": "補充：只要願意留心，＿＿。",
+      "options": [
+        "就能發現幸福",
+        "即使所以很累",
+        "但是因為下雨",
+        "也許昨天忘記"
+      ],
+      "answerIndex": 0,
+      "answer": "就能發現幸福",
+      "explanation": "只要……就……搭配正確。",
+      "hint": "只要就",
+      "tags": [
+        "只要就"
+      ],
+      "reward": {
+        "gold": 8,
+        "exp": 8
+      }
+    },
+    {
+      "id": "N5L1-089",
+      "version": "南一",
+      "grade": "五上",
+      "lesson": "第一課",
+      "title": "幸福筆記本",
+      "category": "修辭句型",
+      "difficulty": 1,
+      "question": "哪句適合作為本文結尾？",
+      "options": [
+        "每天記錄感恩，幸福就會被看見。",
+        "筆記本有一百頁。",
+        "鉛筆盒有三枝筆。",
+        "明天可能下雨。"
+      ],
+      "answerIndex": 0,
+      "answer": "每天記錄感恩，幸福就會被看見。",
+      "explanation": "結尾應呼應主旨。",
+      "hint": "結尾",
+      "tags": [
+        "結尾"
+      ],
+      "reward": {
+        "gold": 11,
+        "exp": 11
+      }
+    },
+    {
+      "id": "N5L1-090",
+      "version": "南一",
+      "grade": "五上",
+      "lesson": "第一課",
+      "title": "幸福筆記本",
+      "category": "修辭句型",
+      "difficulty": 2,
+      "question": "順序詞有什麼作用？",
+      "options": [
+        "掌握事情先後",
+        "變成疑問句",
+        "表示完全相反",
+        "描寫人物外貌"
+      ],
+      "answerIndex": 0,
+      "answer": "掌握事情先後",
+      "explanation": "順序詞呈現過程。",
+      "hint": "功能",
+      "tags": [
+        "功能"
+      ],
+      "reward": {
+        "gold": 5,
+        "exp": 5
+      }
+    },
+    {
+      "id": "N5L1-091",
+      "version": "南一",
+      "grade": "五上",
+      "lesson": "第一課",
+      "title": "幸福筆記本",
+      "category": "素養情境",
+      "difficulty": 1,
+      "question": "每天睡前寫下一件感謝的事，接近哪個做法？",
+      "options": [
+        "寫幸福筆記本",
+        "整理錯題本",
+        "記錄花費",
+        "預習課文"
+      ],
+      "answerIndex": 0,
+      "answer": "寫幸福筆記本",
+      "explanation": "記錄感恩事件就是幸福筆記。",
+      "hint": "生活應用",
+      "tags": [
+        "生活應用"
+      ],
+      "reward": {
+        "gold": 8,
+        "exp": 8
+      }
+    },
+    {
+      "id": "N5L1-092",
+      "version": "南一",
+      "grade": "五上",
+      "lesson": "第一課",
+      "title": "幸福筆記本",
+      "category": "素養情境",
+      "difficulty": 1,
+      "question": "不小心弄壞同學文具時應？",
+      "options": [
+        "道歉並負責賠償",
+        "偷偷丟掉",
+        "推給別人",
+        "假裝沒看見"
+      ],
+      "answerIndex": 0,
+      "answer": "道歉並負責賠償",
+      "explanation": "誠實負責是正確做法。",
+      "hint": "責任",
+      "tags": [
+        "責任"
+      ],
+      "reward": {
+        "gold": 11,
+        "exp": 11
+      }
+    },
+    {
+      "id": "N5L1-093",
+      "version": "南一",
+      "grade": "五上",
+      "lesson": "第一課",
+      "title": "幸福筆記本",
+      "category": "素養情境",
+      "difficulty": 2,
+      "question": "朋友在失敗時鼓勵你，應？",
+      "options": [
+        "真心表達感謝",
+        "嘲笑朋友",
+        "完全不理會",
+        "責怪朋友"
+      ],
+      "answerIndex": 0,
+      "answer": "真心表達感謝",
+      "explanation": "接受善意後表達感謝。",
+      "hint": "感恩",
+      "tags": [
+        "感恩"
+      ],
+      "reward": {
+        "gold": 5,
+        "exp": 5
+      }
+    },
+    {
+      "id": "N5L1-094",
+      "version": "南一",
+      "grade": "五上",
+      "lesson": "第一課",
+      "title": "幸福筆記本",
+      "category": "素養情境",
+      "difficulty": 1,
+      "question": "家人到終點為你加油，最符合本文的想法？",
+      "options": [
+        "珍惜支持與陪伴",
+        "覺得理所當然",
+        "只在意名次",
+        "埋怨來太早"
+      ],
+      "answerIndex": 0,
+      "answer": "珍惜支持與陪伴",
+      "explanation": "應珍惜家人的愛。",
+      "hint": "家人",
+      "tags": [
+        "家人"
+      ],
+      "reward": {
+        "gold": 8,
+        "exp": 8
+      }
+    },
+    {
+      "id": "N5L1-095",
+      "version": "南一",
+      "grade": "五上",
+      "lesson": "第一課",
+      "title": "幸福筆記本",
+      "category": "素養情境",
+      "difficulty": 1,
+      "question": "年長家人保持運動習慣，你應？",
+      "options": [
+        "關心並鼓勵安全運動",
+        "取笑速度",
+        "阻止所有活動",
+        "完全不理會"
+      ],
+      "answerIndex": 0,
+      "answer": "關心並鼓勵安全運動",
+      "explanation": "關心和鼓勵表達珍惜。",
+      "hint": "關懷",
+      "tags": [
+        "關懷"
+      ],
+      "reward": {
+        "gold": 11,
+        "exp": 11
+      }
+    },
+    {
+      "id": "N5L1-096",
+      "version": "南一",
+      "grade": "五上",
+      "lesson": "第一課",
+      "title": "幸福筆記本",
+      "category": "素養情境",
+      "difficulty": 2,
+      "question": "同學無心撞倒水壺並道歉，你可以？",
+      "options": [
+        "了解後給予寬容",
+        "大聲羞辱",
+        "要求排擠",
+        "故意弄壞他的物品"
+      ],
+      "answerIndex": 0,
+      "answer": "了解後給予寬容",
+      "explanation": "可在對方負責後給予寬容。",
+      "hint": "寬容",
+      "tags": [
+        "寬容"
+      ],
+      "reward": {
+        "gold": 5,
+        "exp": 5
+      }
+    },
+    {
+      "id": "N5L1-097",
+      "version": "南一",
+      "grade": "五上",
+      "lesson": "第一課",
+      "title": "幸福筆記本",
+      "category": "素養情境",
+      "difficulty": 1,
+      "question": "哪件事適合寫進幸福筆記本？",
+      "options": [
+        "同學幫我整理散落書本",
+        "一直抱怨作業",
+        "故意不理朋友",
+        "嘲笑別人答錯"
+      ],
+      "answerIndex": 0,
+      "answer": "同學幫我整理散落書本",
+      "explanation": "幫助是值得感謝的美好事件。",
+      "hint": "選材",
+      "tags": [
+        "選材"
+      ],
+      "reward": {
+        "gold": 8,
+        "exp": 8
+      }
+    },
+    {
+      "id": "N5L1-098",
+      "version": "南一",
+      "grade": "五上",
+      "lesson": "第一課",
+      "title": "幸福筆記本",
+      "category": "素養情境",
+      "difficulty": 1,
+      "question": "一天不順利時寫幸福筆記有何幫助？",
+      "options": [
+        "提醒仍有值得珍惜的事",
+        "讓問題立刻消失",
+        "保證不用上課",
+        "讓別人替你負責"
+      ],
+      "answerIndex": 0,
+      "answer": "提醒仍有值得珍惜的事",
+      "explanation": "可調整注意焦點。",
+      "hint": "心理調整",
+      "tags": [
+        "心理調整"
+      ],
+      "reward": {
+        "gold": 11,
+        "exp": 11
+      }
+    },
+    {
+      "id": "N5L1-099",
+      "version": "南一",
+      "grade": "五上",
+      "lesson": "第一課",
+      "title": "幸福筆記本",
+      "category": "素養情境",
+      "difficulty": 2,
+      "question": "淨灘後哪句適合寫入幸福筆記？",
+      "options": [
+        "感謝大家合作讓海灘更乾淨。",
+        "垃圾真討厭。",
+        "我只想回家。",
+        "別人都比我慢。"
+      ],
+      "answerIndex": 0,
+      "answer": "感謝大家合作讓海灘更乾淨。",
+      "explanation": "具體表達合作和感謝。",
+      "hint": "淨灘",
+      "tags": [
+        "淨灘"
+      ],
+      "reward": {
+        "gold": 5,
+        "exp": 5
+      }
+    },
+    {
+      "id": "N5L1-100",
+      "version": "南一",
+      "grade": "五上",
+      "lesson": "第一課",
+      "title": "幸福筆記本",
+      "category": "素養情境",
+      "difficulty": 1,
+      "question": "公共設施留下擦痕，應？",
+      "options": [
+        "主動告知並負責",
+        "趁沒人離開",
+        "推給朋友",
+        "用東西遮住"
+      ],
+      "answerIndex": 0,
+      "answer": "主動告知並負責",
+      "explanation": "誠實通報並負責。",
+      "hint": "公共責任",
+      "tags": [
+        "公共責任"
+      ],
+      "reward": {
+        "gold": 8,
+        "exp": 8
+      }
+    },
+    {
+      "id": "N5L1-101",
+      "version": "南一",
+      "grade": "五上",
+      "lesson": "第一課",
+      "title": "幸福筆記本",
+      "category": "素養情境",
+      "difficulty": 1,
+      "question": "哪份幸福筆記最具體？",
+      "options": [
+        "今天很累，但爸爸在終點等我。",
+        "今天很好。",
+        "我很幸福。",
+        "有很多事情。"
+      ],
+      "answerIndex": 0,
+      "answer": "今天很累，但爸爸在終點等我。",
+      "explanation": "具體交代事件與感受。",
+      "hint": "寫作",
+      "tags": [
+        "寫作"
+      ],
+      "reward": {
+        "gold": 11,
+        "exp": 11
+      }
+    },
+    {
+      "id": "N5L1-102",
+      "version": "南一",
+      "grade": "五上",
+      "lesson": "第一課",
+      "title": "幸福筆記本",
+      "category": "素養情境",
+      "difficulty": 2,
+      "question": "只記昂貴禮物、不記平凡小事，應建議？",
+      "options": [
+        "留意陪伴健康和善意",
+        "只記更貴的東西",
+        "停止記錄",
+        "和同學比禮物"
+      ],
+      "answerIndex": 0,
+      "answer": "留意陪伴健康和善意",
+      "explanation": "幸福常在日常小事中。",
+      "hint": "主旨",
+      "tags": [
+        "主旨"
+      ],
+      "reward": {
+        "gold": 5,
+        "exp": 5
+      }
+    },
+    {
+      "id": "N5L1-103",
+      "version": "南一",
+      "grade": "五上",
+      "lesson": "第一課",
+      "title": "幸福筆記本",
+      "category": "素養情境",
+      "difficulty": 1,
+      "question": "哪個行動兼具負責與感恩？",
+      "options": [
+        "弄壞物品後賠償並感謝溝通",
+        "立刻逃走",
+        "請別人處理",
+        "責怪對方"
+      ],
+      "answerIndex": 0,
+      "answer": "弄壞物品後賠償並感謝溝通",
+      "explanation": "主動負責並感謝對方。",
+      "hint": "負責感恩",
+      "tags": [
+        "負責感恩"
+      ],
+      "reward": {
+        "gold": 8,
+        "exp": 8
+      }
+    },
+    {
+      "id": "N5L1-104",
+      "version": "南一",
+      "grade": "五上",
+      "lesson": "第一課",
+      "title": "幸福筆記本",
+      "category": "素養情境",
+      "difficulty": 1,
+      "question": "班級幸福筆記活動規則應？",
+      "options": [
+        "每天記錄具體美好與感謝原因",
+        "只能記滿分",
+        "比較誰最幸福",
+        "只寫昂貴物品"
+      ],
+      "answerIndex": 0,
+      "answer": "每天記錄具體美好與感謝原因",
+      "explanation": "具體記錄最符合主旨。",
+      "hint": "活動設計",
+      "tags": [
+        "活動設計"
+      ],
+      "reward": {
+        "gold": 11,
+        "exp": 11
+      }
+    },
+    {
+      "id": "N5L1-105",
+      "version": "南一",
+      "grade": "五上",
+      "lesson": "第一課",
+      "title": "幸福筆記本",
+      "category": "素養情境",
+      "difficulty": 2,
+      "question": "哪句最能總結本文啟示？",
+      "options": [
+        "留心、負責、感恩，就能發現幸福。",
+        "幸福只來自成功。",
+        "犯錯時沉默就好。",
+        "只有被幫助才感謝。"
+      ],
+      "answerIndex": 0,
+      "answer": "留心、負責、感恩，就能發現幸福。",
+      "explanation": "全文強調發現美好與感恩。",
+      "hint": "總結",
+      "tags": [
+        "總結"
+      ],
+      "reward": {
+        "gold": 5,
+        "exp": 5
+      }
+    }
+  ]
+}
